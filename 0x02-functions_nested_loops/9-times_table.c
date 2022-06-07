@@ -1,16 +1,18 @@
 #include "main.h"
 /**
- * times_table - func that prints the 9 times table, starting with 0
- * @n,i:  is the int that will use for the argument of the function
+ * times_table - function that prints the 9 times table, starting with 0
+ * @n: is the int for the parameter of my function
+ * @i: is the int for the looping of my function
  * Return: 0
  */
 void times_table(void)
 {
-	int n = 9, i;
+	int n = 9;
+	int i
 
-	for (i = 1; i <= 10; ++i)
+	for (i = 0; i <= 10; ++i)
 	{
-		printf("%d * %d = \n", n, i, n * i);
+		_putchar('%d', n, i, n * i);
+		_putchar('\n');
 	}
-	return (0);
 }
